@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trang cá nhân - Bài tập CSS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  :root { --bg:#f4f6f8; --card:#fff; --text:#222; --accent:#00796b; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14181c; --card:#1f252b; --text:#eee; --accent:#4db6ac; } }
+  body { margin:0; font-family: Arial, sans-serif; background:var(--bg); color:var(--text); }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 30px 16px; }
+  .profile { background:var(--card); border-radius:12px; padding:30px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,.15); }
+  .profile img { width:140px; height:140px; border-radius:50%; object-fit:cover; border:4px solid var(--accent); background:#ccc; }
+  .profile h1 { margin:15px 0 5px; }
+  .social a { font-size:26px; margin:0 8px; color:var(--accent); }
+  h2 { margin-top:30px; }
+  .list { list-style:none; padding:0; }
+  .list li { background:var(--card); margin:8px 0; border-radius:8px; }
+  .list a { display:block; padding:14px 18px; color:var(--text); text-decoration:none; }
+  .list a:hover { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="profile">
+    <h1>Ngô Mỹ Châu</h1>
+    <p>MSSV: 31241027476 - Lớp: EE0002 - Đại học Kinh tế TP Hồ Chí Minh</p>
+    <p class="social">
+      <a href="https://github.com/" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:chaungo.31241027476@st.ueh.edu.vn" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </p>
+  </div>
+  <h2>Danh sách bài tập CSS</h2>
+  <ul class="list">
+    <li><a href="BaiTap2.html">Bài tập 2 - Định dạng đoạn văn</a></li>
+    <li><a href="BaiTap4.html">Bài tập 4 - Menu ngang</a></li>
+    <li><a href="BaiTap5.html">Bài tập 5 - Landing page Shared Hosting</a></li>
+    <li><a href="BaiTap6.html">Bài tập 6 - My Portfolio</a></li>
+    <li><a href="BaiTap7.html">Bài tập 7 - Layout wrapper</a></li>
+    <li><a href="BaiTap8a.html">Bài tập 8a - Heroes of JavaScript and HTML</a></li>
+    <li><a href="BaiTap8b.html">Bài tập 8b - The Bat Family</a></li>
+    <li><a href="BaiTap9.html">Bài tập 9 - Font Awesome</a></li>
+  </ul>
+</div>
+</body>
+</html>
